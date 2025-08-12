@@ -2,8 +2,6 @@ import Logo from "./assets/splash-icon-dark.png";
 import "./App.css";
 import clsx from "clsx";
 import AppStoreButton from "./assets/apple-download-shadow.png";
-// @ts-expect-error types not found
-import FitText from "@kennethormandy/react-fittext";
 
 export const Bullet = ({ className }: { className?: string }) => {
   return <p className={clsx(className)}>{`\u29BF`}</p>;
