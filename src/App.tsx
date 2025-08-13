@@ -34,7 +34,7 @@ export const BulletList = ({
 function App() {
   return (
     <div className="bg-[#242424] text-left">
-      <div className="p-2 text-white exo-regular max-w-screen-lg mx-auto">
+      <div className="p-2 text-white exo-regular max-w-screen-md mx-auto">
         <div className="h-[80px]" />
 
         <header className="flex flex-col justify-center items-center pb-20">
