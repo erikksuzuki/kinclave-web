@@ -65,7 +65,7 @@ function App() {
             App.
           </p>
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             1. Information We Collect
@@ -98,7 +98,7 @@ function App() {
             ]}
           />
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             2. Legal Basis for Processing (GDPR)
@@ -117,7 +117,7 @@ function App() {
             ]}
           />
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             3. How We Use Your Information
@@ -141,7 +141,7 @@ function App() {
             We do not sell or rent your personal information.
           </p>
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             4. Data Sharing and Disclosure
@@ -164,7 +164,7 @@ function App() {
             without your explicit consent.
           </p>
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             5. Your Privacy Rights
@@ -205,7 +205,7 @@ function App() {
             Requests can be made by contacting erikksuzuki@gmail.com.
           </p>
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             6. Data Storage and Transfers
@@ -217,7 +217,7 @@ function App() {
             consent to such transfers, subject to safeguards required by law.
           </p>
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             7. Data Retention
@@ -230,7 +230,7 @@ function App() {
             settings.
           </p>
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             8. Data Security
@@ -243,7 +243,7 @@ function App() {
             security.
           </p>
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             9. Third-Party Services
@@ -265,7 +265,7 @@ function App() {
             We encourage you to review their privacy practices.
           </p>
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             10. Changes to This Policy
@@ -277,7 +277,7 @@ function App() {
             Kinclave after changes means you accept the updated terms.
           </p>
 
-          <hr className="my-[2em] h-0 border-t border-[rgba(0,200,255,0.4)]" />
+          <hr className="my-3 h-0 border-t border-[rgba(0,200,255,0.4)]" />
 
           <p className="exo-regular text-[14px] md:text-[17px] font-bold">
             11. Contact Us
