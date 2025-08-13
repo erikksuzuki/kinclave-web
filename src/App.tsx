@@ -20,7 +20,7 @@ export const BulletList = ({
         <div key={item} className="flex flex-row items-center">
           <Bullet className="w-[24px]" />
           <p
-            className="w-[calc(100%-24px)] text-[12px] md:text-[14px]"
+            className="w-[calc(100%-24px)] text-[12.5px] md:text-[14px]"
             key={`item-${index}`}
           >
             {item}
@@ -41,16 +41,16 @@ function App() {
           <img className="ml-[20px] w-[230px]" src={Logo} alt="image" />
         </header>
 
-        <div className="flex flex-col gap-y-2 md:gap-y-4">
+        <div className="flex flex-col px-8 gap-y-2 md:gap-y-4">
           <p className="exo-regular text-[17px] md:text-[24px] font-bold mb-[0.5em]">
             Kinclave Privacy Policy
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             <b>Effective Date:</b> Aug 12, 2025
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             Kinclave (“we,” “us,” or “our”) is committed to protecting your
             privacy and complying with applicable data protection laws,
             including the General Data Protection Regulation (GDPR) and the
@@ -59,7 +59,7 @@ function App() {
             information when you use the Kinclave mobile application (“App”).
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             By using Kinclave, you acknowledge you have read and understood this
             Privacy Policy. If you do not agree, please discontinue use of the
             App.
@@ -71,11 +71,11 @@ function App() {
             1. Information We Collect
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             We collect and process the following categories of personal data:
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] font-bold mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] font-bold mb-[0.5em]">
             Required Information
           </p>
           <BulletList
@@ -85,7 +85,7 @@ function App() {
             ]}
           />
 
-          <p className="exo-regular text-[12px] md:text-[14px] font-bold mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] font-bold mb-[0.5em]">
             Optional Information (only with your explicit consent)
           </p>
           <BulletList
@@ -104,7 +104,7 @@ function App() {
             2. Legal Basis for Processing (GDPR)
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             We process your personal data under the following legal grounds:
           </p>
           <BulletList
@@ -123,7 +123,7 @@ function App() {
             3. How We Use Your Information
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             Your data is used to:
           </p>
 
@@ -137,7 +137,7 @@ function App() {
             ]}
           />
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             We do not sell or rent your personal information.
           </p>
 
@@ -147,7 +147,7 @@ function App() {
             4. Data Sharing and Disclosure
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             We may share your personal data only with:
           </p>
           <BulletList
@@ -159,7 +159,7 @@ function App() {
             ]}
           />
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             We do not use your personal information for targeted advertising
             without your explicit consent.
           </p>
@@ -170,11 +170,11 @@ function App() {
             5. Your Privacy Rights
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             Depending on your location, you have the right to:
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] font-bold mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] font-bold mb-[0.5em]">
             Under GDPR (EU/EEA Residents):
           </p>
           <BulletList
@@ -188,7 +188,7 @@ function App() {
             ]}
           />
 
-          <p className="exo-regular text-[12px] md:text-[14px] font-bold mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] font-bold mb-[0.5em]">
             Under CCPA (California Residents):
           </p>
           <BulletList
@@ -201,7 +201,7 @@ function App() {
             ]}
           />
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             Requests can be made by contacting erikksuzuki@gmail.com.
           </p>
 
@@ -211,7 +211,7 @@ function App() {
             6. Data Storage and Transfers
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             Your data may be stored on servers located outside your country of
             residence, including in the United States. By using Kinclave, you
             consent to such transfers, subject to safeguards required by law.
@@ -223,7 +223,7 @@ function App() {
             7. Data Retention
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             We retain your personal data only as long as necessary to fulfill
             the purposes outlined in this policy, or as required by law. You may
             delete your account and associated data at any time via App
@@ -236,7 +236,7 @@ function App() {
             8. Data Security
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             We implement technical, administrative, and physical safeguards to
             protect your personal data. However, no transmission over the
             internet is entirely secure, and we cannot guarantee absolute
@@ -249,7 +249,7 @@ function App() {
             9. Third-Party Services
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             Kinclave integrates with third-party services, including:
           </p>
           <BulletList
@@ -261,7 +261,7 @@ function App() {
             ]}
           />
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             We encourage you to review their privacy practices.
           </p>
 
@@ -271,7 +271,7 @@ function App() {
             10. Changes to This Policy
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             We may update this Privacy Policy from time to time. Changes will be
             posted in the App with the updated effective date. Continued use of
             Kinclave after changes means you accept the updated terms.
@@ -283,14 +283,14 @@ function App() {
             11. Contact Us
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             For privacy-related inquiries or to exercise your rights:
           </p>
 
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             📧 erikksuzuki@gmail.com
           </p>
-          <p className="exo-regular text-[12px] md:text-[14px] mb-[0.5em]">
+          <p className="exo-regular text-[12.5px] md:text-[14px] mb-[0.5em]">
             📍 Nevada, USA
           </p>
         </div>
